@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India Tourism</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+          color: #333; /* Darker heading */
+        }
+      .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+      .destination {
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+            overflow: hidden; /* Hide overflowing image */
+        }
+      .destination img {
+            width: 100%;
+            height: auto;
+            display: block; /* Prevents small space below image */
+        }
+      .destination-info {
+            padding: 15px;
+        }
+      .destination h2 {
+            margin-top: 0;
+            color: #555; /* Slightly darker heading */
+        }
+      .booking-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Blue button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Responsive adjustments (example) */
+        @media (max-width: 768px) {
+        .destination {
+            width: 45%; /* Two columns on smaller screens */
+          }
+        }
+        @media (max-width: 480px) {
+        .destination {
+            width: 90%; /* Single column on very small screens */
+          }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Incredible India</h1>
+        <p>Explore the diverse beauty and culture of India.</p>
+    </header>
+
+    <div class="container">
+
+        <div class="destination">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/f/f0/Taj_Mahal_Front.JPG" alt="Taj Mahal">
+            <div class="destination-info">
+                <h2>Taj Mahal, Agra</h2>
+                <p>A symbol of love and architectural marvel.</p>
+                <a class="booking-link" href="#">Book Hotel</a>  </div>
+        </div>
+
+        <div class="destination">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_479585620_20191024174904_20200407155734.jpg" alt="Golden Temple">
+            <div class="destination-info">
+                <h2>Golden Temple, Amritsar</h2>
+                <p>A spiritual center of Sikhism.</p>
+                <a class="booking-link" href="#">Book Hotel</a>
+            </div>
+        </div>
+
+        <div class="destination">
+            <img src="https://static.toiimg.com/photo/53438383/.jpg" alt="Red Fort">
+            <div class="destination-info">
+                <h2>Red Fort, Delhi</h2>
+                <p>A historic fort showcasing Mughal architecture.</p>
+                <a class="booking-link" href="#">Book Hotel</a>
+            </div>
+        </div>
+
+        <div class="destination">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.t2wW9xhr8eaOEGfD0TUKbwHaD3&pid=Api&P=0&h=180" alt="Kerala">
+            <div class="destination-info">
+                <h2>Kerala</h2>
+                <p>Backwaters, beaches, and vibrant culture.</p>
+                <a class="booking-link" href="#">Book Hotel</a>
+            </div>
+        </div>
+
+        <div class="destination">
+            <img src="http://4.bp.blogspot.com/-OpqSAKhcdZ4/VhqjfoUSo1I/AAAAAAAAJ5M/TZy0hzbMAjE/s1600/Gatewayofindia.jpg" alt="Gateway of India">
+            <div class="destination-info">
+                <h2>Gateway of India, Mumbai</h2>
+                <p>A landmark monument in Mumbai.</p>
+                <a class="booking-link" href="#">Book Hotel</a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
